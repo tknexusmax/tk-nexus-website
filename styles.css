@@ -113,8 +113,15 @@ header .container {
     padding: 15px 20px;
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+}
+
 .logo img {
-    height: 50px;
+    height: 40px;
+    width: auto;
+    margin-right: 10px;
 }
 
 nav ul {
@@ -335,6 +342,11 @@ footer {
 @media (max-width: 768px) {
     header .container {
         flex-direction: column;
+    }
+
+    .logo img {
+        height: 35px;
+        margin-bottom: 10px;
     }
 
     nav ul {
