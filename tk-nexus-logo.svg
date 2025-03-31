@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200">
+  <!-- The background is inherently transparent in SVG -->
+  
+  <!-- Main hexagon shape representing connectivity/network/technology -->
+  <polygon points="150,40 205,70 205,130 150,160 95,130 95,70" fill="none" stroke="#2563EB" stroke-width="6"/>
+  
+  <!-- Inner hexagon for depth -->
+  <polygon points="150,60 185,80 185,120 150,140 115,120 115,80" fill="#2563EB" fill-opacity="0.2" stroke="#2563EB" stroke-width="2"/>
+  
+  <!-- Letter T -->
+  <path d="M135,85 L135,115 M125,85 L145,85" fill="none" stroke="#2563EB" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Letter K -->
+  <path d="M165,85 L165,115 M165,100 L180,85 M165,100 L180,115" fill="none" stroke="#2563EB" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Company name -->
+  <text x="150" y="180" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2563EB" text-anchor="middle">TK NEXUS</text>
+</svg>
