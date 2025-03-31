@@ -2,9 +2,9 @@
   <!-- Hexagon shape -->
   <polygon points="30,10 45,2 60,10 60,30 45,38 30,30" fill="none" stroke="#2563EB" stroke-width="2"/>
   
-  <!-- Letters TK -->
-  <path d="M35,12 L35,28 M31,12 L39,12" fill="none" stroke="#2563EB" stroke-width="2.5" stroke-linecap="round"/>
-  <path d="M45,12 L45,28 M45,20 L53,12 M45,20 L53,28" fill="none" stroke="#2563EB" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Letters TK - adjusted positioning -->
+  <path d="M37,12 L37,28 M33,12 L41,12" fill="none" stroke="#2563EB" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M47,12 L47,28 M47,20 L54,12 M47,20 L54,28" fill="none" stroke="#2563EB" stroke-width="2.5" stroke-linecap="round"/>
   
   <!-- Company name -->
   <text x="75" y="25" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2563EB">TK NEXUS</text>
