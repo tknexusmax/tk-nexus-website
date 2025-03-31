@@ -139,7 +139,7 @@ nav ul li a:hover {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(rgba(44, 62, 80, 0.8), rgba(44, 62, 80, 0.8)), url('images/hero-bg.jpg');
+    background: linear-gradient(rgba(44, 62, 80, 0.8), rgba(44, 62, 80, 0.8)), var(--primary-color);
     background-size: cover;
     background-position: center;
     color: white;
@@ -182,6 +182,25 @@ nav ul li a:hover {
     width: 100%;
     border-radius: 5px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.about-image .placeholder-image {
+    width: 100%;
+    height: 300px;
+    background-color: var(--light-color);
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-light);
+}
+
+.about-image .placeholder-image i {
+    font-size: 4rem;
+    margin-bottom: 15px;
+    color: var(--secondary-color);
 }
 
 /* Services Section */
@@ -236,9 +255,28 @@ nav ul li a:hover {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
+.expertise-image .placeholder-image {
+    width: 100%;
+    height: 300px;
+    background-color: var(--light-color);
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-light);
+}
+
+.expertise-image .placeholder-image i {
+    font-size: 4rem;
+    margin-bottom: 15px;
+    color: var(--secondary-color);
+}
+
 /* CTA Section */
 .cta {
-    background: linear-gradient(rgba(52, 152, 219, 0.9), rgba(52, 152, 219, 0.9)), url('images/cta-bg.jpg');
+    background: linear-gradient(rgba(52, 152, 219, 0.9), rgba(52, 152, 219, 0.9)), var(--secondary-color);
     background-size: cover;
     background-position: center;
     color: white;
@@ -267,25 +305,22 @@ nav ul li a:hover {
 
 /* Contact Section */
 .contact-content {
-    display: flex;
-    gap: 40px;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 .contact-info {
-    flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-}
-
-.contact-form {
-    flex: 2;
+    align-items: center;
+    gap: 30px;
 }
 
 .contact-item {
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
+    font-size: 1.2rem;
 }
 
 .contact-item i {
@@ -294,29 +329,6 @@ nav ul li a:hover {
     margin-right: 15px;
     width: 30px;
     text-align: center;
-}
-
-.form-group {
-    margin-bottom: 20px;
-}
-
-.form-group label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: 600;
-}
-
-.form-group input,
-.form-group textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    font-family: var(--font-primary);
-}
-
-.form-group textarea {
-    resize: vertical;
 }
 
 /* Footer */

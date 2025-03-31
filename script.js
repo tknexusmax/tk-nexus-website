@@ -16,27 +16,6 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
-    // Form submission handling
-    const contactForm = document.getElementById('contactForm');
-
-    if (contactForm) {
-        contactForm.addEventListener('submit', function (e) {
-            e.preventDefault();
-
-            // Get form values
-            const name = document.getElementById('name').value;
-            const email = document.getElementById('email').value;
-            const message = document.getElementById('message').value;
-
-            // In a real implementation, you would send this data to a server
-            // For now, we'll just show an alert
-            alert(`Thank you for your message, ${name}! We will get back to you soon.`);
-
-            // Clear the form
-            contactForm.reset();
-        });
-    }
-
     // Header scroll effect
     const header = document.querySelector('header');
 
